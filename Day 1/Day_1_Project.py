@@ -1,8 +1,8 @@
-                         Band Name Genrator
+                         #Band Name Genrator
                          
                          
                          
- Code :
+ #Code :
  #1. Create a greeting for your program.
 
 print("Welcome to Brand Name Generator")
@@ -21,4 +21,4 @@ print("Your Band name could Be " + city + " " + pet)
 
 #5. Make sure the input cursor shows on a new line, see the example at:
 
-https://band-name-generator-end.appbrewery.repl.run/
+#https://band-name-generator-end.appbrewery.repl.run/
