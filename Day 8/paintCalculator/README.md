@@ -58,6 +58,3 @@ Before checking the solution, try copy-pasting your code into this repl:
 
 This repl includes my testing code that will check if your code meets this assignment's objectives. 
 
-# Solution
-
-[https://repl.it/@appbrewery/day-8-1-solution](https://repl.it/@appbrewery/day-8-1-solution)
