@@ -4,9 +4,10 @@ def paint_calc(height,width,cover):
   no_of_cans = area/int(cover)
   n = area//int(cover)
   if no_of_cans > n:
-    print (int(no_of_cans) + 1)
+    print (f"You'll need {int(no_of_cans) + 1} cans of paint.")
   else :
-    print (int(no_of_cans))
+    print (f"You'll need {int(no_of_cans)} cans of paint.")
+
 
 
 #Write your code above this line 👆
