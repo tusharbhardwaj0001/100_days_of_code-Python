@@ -57,7 +57,12 @@ def blackjack():
     computerScore += c
     computerScore.append(c)
     if (computerScore > 21):
-      result(userHand,computerHand,userScore,computerScore)
+      if 11 in computerHand:
+        computerHand.remove(11)
+        computerScore -= 10
+        computerScore.append(1)
+      else:
+        result(userHand,computerHand,userScore,computerScore)
   
   
   flag = True
@@ -73,8 +78,13 @@ def blackjack():
       userScore += c
       userHand.append(c)
       if userScore > 21:
-        result(userHand,computerHand,userScore,computerScore)
-        flag = False
+        if 11 in userHand:
+          userHand.remove(11)
+          userScore -= 10
+          userHand.append(1)
+        else:
+          result(userHand,computerHand,userScore,computerScore)
+          flag = False
 
 
 
